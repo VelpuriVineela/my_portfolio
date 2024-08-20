@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Vineela Velpuri</title>
+    <meta name="title" content="Vineela Velpuri" />
+    <meta
+      name="description"
+      content="This is a web developer portfolio by vineela velpuri."
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./vrf.svg" type="image/svg+xml" />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - custom font link
+  -->
+    <link rel="stylesheet" href="./assets/font/font.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/loading.svg" />
+    <link rel="preload" as="image" href="./assets/images/loading-circle.svg" />
+  </head>
+
+  <body class="active" id="top">
+    <!-- 
+    -#PRELOADING
+  -->
+
+    <div class="loading" data-loading>
+      <img
+        src="./vrf.svg"
+        width="55"
+        height="55"
+        alt="loading"
+        class="img"
+      />
+      <img
+        src="./assets/images/loading-circle.svg"
+        width="70"
+        height="70"
+        alt=""
+        class="circle"
+      />
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <h1 class="logo">V</h1>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <img
+            src="./assets/images/menu.svg"
+            width="17"
+            height="17"
+            alt="menu icon"
+          />
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <span class="span one"></span>
+              <span class="span two"></span>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#skills" class="navbar-link" data-nav-link>skills</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#education" class="navbar-link" data-nav-link
+                >Education</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#portfolio" class="navbar-link" data-nav-link
+                >Portfolio</a
+              >
+            </li>
+
+            <li class="navbar-item">
+              <a href="#contact" class="navbar-link" data-nav-link
+                >Contact us</a
+              >
+            </li>
+          </ul>
+
+          <a href="https://docs.google.com/document/d/11pfeVg844FMenQZIudETvMGYTt0GMS98/edit?usp=sharing&ouid=104985656869101964595&rtpof=true&sd=true" alt="vineela resume" target="_blank">
+            <button class="login-btn">
+              <span class="span">RESUME</span>
+            </button>
+          </a>
+          
+
+          <p class="navbar-title">My Address</p>
+
+          <address class="navbar-text">
+            Rajahmundry, Andhra Pradesh, India.
+          </address>
+
+          <p class="navbar-text">
+            Urgent issue? call us at
+            <a href="tel:8085613846" class="contact-link">808-561-3846</a>
+          </p>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+            - #HERO
+        -->
+
+        <section class="section hero" id="home" aria-label="home">
+          <div class="container">
+            <div class="hero-content">
+              <h1 class="h1 hero-title">Vineela Velpuri</h1>
+
+              <div class="wrapper h2">
+                <strong class="strong" data-letter-effect>Web Developer</strong>
+                <strong class="strong" data-letter-effect
+                  >Frontend Developer</strong
+                >
+                <strong class="strong" data-letter-effect
+                  >Backend Developer</strong
+                >
+                <strong class="strong" data-letter-effect
+                  >Full Stack Developer</strong
+                >
+              </div>
+
+              <p class="hero-text">Innovating user Experience</p>
+            </div>
+          </div>
+
+          <img
+            src="./assets/images/hero-shape.svg"
+            width="211"
+            height="189"
+            alt=""
+            class="shape"
+          />
+
+          <a href="#projects" class="scroll-down">
+            <img
+              src="./assets/images/scroll-down.svg"
+              width="40"
+              height="66"
+              loading="lazy"
+              alt="mouse scroll"
+            />
+          </a>
+        </section>
+
+        <!-- 
+        - #ABOUT
+        -->
+
+        <section class="section about" id="about" aria-label="about me">
+          <p
+            class="section-subtitle container sub-heading"
+            id="certifications-lable"
+          >
+            About Me
+          </p>
+          <div class="container">
+            <div class="about-content">
+              <h2 class="h2 section-title" data-reveal="right">
+                Hi. I’m <br />
+                Vineela
+              </h2>
+
+              <div class="wrapper has-before" data-reveal="right">
+                <p class="section-text">
+                  A passionate
+                  <em class="em">developer</em>
+                  who brings ideas to life with
+                  <em class="em">innovative, user-focused web solutions.</em>
+                  I’m ready to give you my best.
+                </p>
+              </div>
+            </div>
+
+            <figure class="about-banner" data-reveal="left">
+              <div
+                class="img-holder has-before"
+                style="--width: 512; --height: 684"
+              >
+                <img
+                  src="./assets/images/about-banner.jpg"
+                  width="512"
+                  height="684"
+                  loading="lazy"
+                  alt="Riachard Ryan"
+                  class="img-cover"
+                />
+              </div>
+
+              <!-- <img
+                src="./assets/images/about-shape-1.png"
+                width="178"
+                height="178"
+                loading="lazy"
+                alt=""
+                class="shape shape-1"
+              /> -->
+
+              <img
+                src="./assets/images/about-shape-2.svg"
+                width="659"
+                height="653"
+                loading="lazy"
+                alt=""
+                class="shape shape-2"
+              />
+            </figure>
+
+            <img
+              src="./assets/images/about-shape-3.svg"
+              width="239"
+              height="232"
+              loading="lazy"
+              alt=""
+              class="shape shape-3"
+            />
+          </div>
+        </section>
+
+        <!-- 
+            - #SKILLS
+        -->
+
+        <section class="section category" aria-label="photography category">
+          <p
+            class="section-subtitle container sub-heading"
+            id="certifications-lable"
+          >
+            SKILLS THAT I HAD
+          </p>
+          <div class="container">
+            <ul class="category-list">
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">HTML,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-1.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Landscape"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">CSS,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-2.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Model"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Javascript,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-3.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Street"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">React,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-4.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Product"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Tailwind,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-5.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Fashion"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">NodeJs,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-6.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Film"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">ExpressJs,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-7.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Architecture"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">MongoDB,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-8.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Event"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Redux,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-10.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Wedding"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Java,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-9.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Health & Wellnes"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">GIT,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-11.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="People"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Github,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-12.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Event"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Figma.</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/category-13.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Food"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- 
+             - #PROJECTS
+        -->
+        <section class="section category" id="projects" arial-label="my works">
+          <p class="section-subtitle container sub-heading project-heading">
+            My Works
+          </p>
+          <div class="carousel">
+            <!-- list item -->
+            <div class="list">
+              <div class="item">
+                <img src="./assets/images/project-1.png" />
+                <div class="content">
+                  <div class="title section-title">REAL ESTATE</div>
+                  <div class="des section-text">
+                    <!-- lorem 50 -->
+                    Explore and manage real estate properties with this
+                    comprehensive MERN Real Estate Website! Browse, search, and
+                    filter properties, view detailed information, and manage
+                    your listings with ease. This application provides a
+                    user-friendly interface and real-time updates for both
+                    property seekers and agents.
+                  </div>
+                  <div class="buttons">
+                    <button
+                      onclick="window.open('https://mern-estate-06vg.onrender.com/', '_blank');"
+                    >
+                      DEMO
+                    </button>
+                    <button
+                      onclick="window.open('https://github.com/VelpuriVineela/mern-estate', '_blank');"
+                    >
+                      GITHUB
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/project-2.png" />
+                <div class="content">
+                  <div class="title">MERN GITHUB CLONE</div>
+
+                  <div class="des">
+                    The MERN GitHub Replica is a web app built with MongoDB,
+                    Express, React, and Node.js. It allows users to authenticate
+                    via GitHub, explore repositories, and manage liked repos,
+                    with a responsive React frontend and a robust backend
+                    handling API requests and MongoDB integration.
+                  </div>
+                  <div class="buttons">
+                    <button
+                      onclick="window.open('https://mern-github-clone-aw6f.onrender.com/', '_blank');"
+                    >
+                      DEMO
+                    </button>
+                    <button
+                      onclick="window.open('https://github.com/VelpuriVineela/mern-github-clone', '_blank');"
+                    >
+                      GITHUB
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/project-3.png" />
+                <div class="content">
+                  <div class="title">IPHONE 15 PRO CLONE</div>
+
+                  <div class="des">
+                    This project is a clone of the iPhone 15 Pro website,
+                    created using React and other modern web technologies. It
+                    includes various components, assets, utilities, animations,
+                    and 3D models to replicate the official website's look and
+                    feel.
+                  </div>
+                  <div class="buttons">
+                    <button
+                      onclick="window.open('https://iphone15-pro-clone.netlify.app/', '_blank');"
+                    >
+                      DEMO
+                    </button>
+                    <button
+                      onclick="window.open('https://github.com/VelpuriVineela/IPhone15-Pro', '_blank');"
+                    >
+                      GITHUB
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- list thumnail -->
+            <div class="thumbnail">
+              <div class="item">
+                <img src="./assets/images/project-1.png" />
+                <div class="content">
+                  <!-- <div class="section-subtitle">Name Slider</div>
+                  <div class="description">Description</div> -->
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/project-2.png" />
+                <div class="content">
+                  <!-- <div class="title">Name Slider</div>
+                  <div class="description">Description</div> -->
+                </div>
+              </div>
+              <div class="item">
+                <img src="./assets/images/project-3.png" />
+                <div class="content">
+                  <!-- <div class="title">Name Slider</div>
+                  <div class="description">Description</div> -->
+                </div>
+              </div>
+            </div>
+            <!-- next prev -->
+
+            <div class="arrows">
+              <button id="prev"><</button>
+              <button id="next">></button>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #certifications
+      -->
+
+        <section
+          class="section certifications"
+          id="certifications"
+          aria-labelledby="certifications-lable"
+        >
+          <p
+            class="section-subtitle container sub-heading"
+            id="certifications-lable"
+          >
+            My Certifications
+          </p>
+
+          <ul class="certifications-list">
+            <li data-reveal>
+              <div class="certifications-card container">
+                <img
+                  src="./assets/images/Geekster_Certificate.png"
+                  width="340px"
+                  height="380px"
+                  loading="lazy"
+                  alt="Wedding Photography"
+                  class="img"
+                />
+
+                <div>
+                  <h3 class="h3 card-title">Full Stack Development</h3>
+
+                  <p class="card-subtitle">By Geekster</p>
+                </div>
+
+                <!-- <a href="#" class="btn-icon" aria-label="See more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="20"
+                    viewBox="0 0 43 20"
+                    fill="none"
+                  >
+                    <path d="M0 10H41" stroke="white" stroke-width="2" />
+                    <path
+                      d="M33 1L41.9 10.2727L33 19"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a> -->
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="certifications-card container">
+                <img
+                  src="./assets/images/HTML_Certificate.png"
+                  width="340"
+                  height="380"
+                  loading="lazy"
+                  alt="Event Organiser"
+                  class="img"
+                />
+
+                <div>
+                  <h3 class="h3 card-title">Hyper Text Markup Language</h3>
+
+                  <p class="card-subtitle">By Infosys Spring Board</p>
+                </div>
+
+                <!-- <a href="#" class="btn-icon" aria-label="See more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="20"
+                    viewBox="0 0 43 20"
+                    fill="none"
+                  >
+                    <path d="M0 10H41" stroke="white" stroke-width="2" />
+                    <path
+                      d="M33 1L41.9 10.2727L33 19"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a> -->
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="certifications-card container">
+                <img
+                  src="./assets/images/CSS_Certificate.png"
+                  width="340"
+                  height="380"
+                  loading="lazy"
+                  alt="Product Marketing"
+                  class="img"
+                />
+
+                <div>
+                  <h3 class="h3 card-title">Cascading Style Sheets</h3>
+
+                  <p class="card-subtitle">By Infosys Spring Board</p>
+                </div>
+
+                <!-- <a href="#" class="btn-icon" aria-label="See more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="20"
+                    viewBox="0 0 43 20"
+                    fill="none"
+                  >
+                    <path d="M0 10H41" stroke="white" stroke-width="2" />
+                    <path
+                      d="M33 1L41.9 10.2727L33 19"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a> -->
+              </div>
+            </li>
+          </ul>
+        </section>
+
+       
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="footer-top section" id="contact">
+        <div class="container">
+          <p class="section-subtitle" data-reveal>Contact Me</p>
+
+          <h2 class="h2 section-title" data-reveal>
+            Work inquiry, Job oportunities? Send Message.
+          </h2>
+
+          <a href="mailto:vineelavelpuri@gmail.com" class="btn-icon" data-reveal>
+            <img src="./assets/images/arrow-forward.svg" width="43" height="20" loading="lazy" alt="arrow-forward icon">
+          </a>
+
+          <a href="https://leetcode.com/u/vineelavelpuri/" alt="leethcode profile link" target="_blank">
+
+            <img
+              src="./assets/images/leetcode_icon.webp"
+              width="300"
+              height="280"
+              loading="l*azy"
+              alt="photography"
+              class="abs-img abs-img-1"
+              data-reveal
+            />
+          </a>
+          
+          <a href="https://github.com/VelpuriVineela" alt="github profile link" target="_blank">
+            <img
+            src="./assets/images/github_icon.webp"
+            width="265"
+            height="275"
+            loading="lazy"
+            alt="photography"
+            class="abs-img abs-img-2"
+            data-reveal
+            />
+          </a>
+          
+          <a href="mailto:vineelavelpuri@gmail.com" alt="redirect to the email">
+            <img
+            src="./assets/images/gmail_icon.webp"
+            width="303"
+            height="272"
+            loading="lazy"
+            alt="photography"
+            class="abs-img abs-img-3"
+            data-reveal
+            />
+          </a>
+          
+          <a href="https://www.linkedin.com/in/velpuri-vineela/" alt="linkedIn profile link" target="_blank">
+            <img
+            src="./assets/images/linkedIn_icon.webp"
+            width="175"
+            height="175"
+            loading="lazy"
+            alt="photography"
+            class="abs-img abs-img-4"
+            data-reveal
+            />
+          </a>
+          
+
+          <img
+            src="./assets/images/footer-shape.svg"
+            width="185"
+            height="134"
+            loading="lazy"
+            alt=""
+            class="shape"
+          />
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <a href="#" class="logo">
+            <h1>V</h1>
+          </a>
+
+          <div class="footer-message"  data-reveal> 
+            <p class="copyright" width="800px" >I appreciate your presence here and hope this site makes you feel like love at first sight—crafted with care and made with love in every touch.</p>
+          <img
+            src="./assets/images/Red-Heart-3d-icon.png"
+            class="copyright-emoji"
+            loading="lazy"
+            alt="final message"
+           
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bg has-before">
+        <img
+          src="./assets/images/footer-background.webp"
+          width="1920"
+          height="1135"
+          loading="lazy"
+          alt="photography"
+          class="img-cover"
+        />
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+      >0%</a
+    >
+
+    <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+    <div class="cursor" data-cursor></div>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
